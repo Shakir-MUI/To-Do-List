@@ -1,33 +1,71 @@
-📋 To-Do List Web App
-A clean and responsive To-Do List application built using HTML, CSS, and JavaScript. This project allows users to manage their daily tasks efficiently by adding, editing, deleting, and marking tasks as completed.
+# 📋 Priority To-Do List
 
-✨ Features
-✅ Add new tasks quickly
+A clean, responsive, and feature-rich To-Do List application built with vanilla JavaScript. Manage your daily tasks with priority levels, due dates, and more.
 
-✏️ Edit existing tasks anytime
+## ✨ Features
 
-❌ Delete tasks with one click
+- **Add tasks** with title and description
+- **Priority levels** (High, Medium, Low) with color-coding
+- **Edit existing tasks** with a single click
+- **Mark tasks as complete/incomplete**
+- **Delete tasks** with confirmation
+- **Responsive design** that works on all devices
+- **Local storage** - your tasks persist between sessions
+- **Clean, modern UI** with smooth animations
 
-📌 Mark tasks as complete/incomplete
+## 🎯 Priority System
 
-💾 Local storage support – tasks are saved even after refreshing the page
+- **High Priority** (🔴 Red) - Urgent tasks that need immediate attention
+- **Medium Priority** (🟠 Orange) - Important but not urgent tasks
+- **Low Priority** (🟢 Green) - Tasks that can be done later
 
-📱 Fully responsive design – works well on all devices
+## 🚀 Getting Started
 
-🎨 Simple and clean UI for distraction-free productivity
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shakir-MUI/To-Do-List.git
+   ```
+2. Open `index.html` in your browser
+3. Start adding tasks!
 
-🚀 Tech Stack
-HTML5
+## 🛠️ Tech Stack
 
-CSS3
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Storage**: Local Storage API
+- **No dependencies** - Pure vanilla JavaScript
 
-JavaScript (Vanilla JS)
+## 📦 Use Cases
 
-Local Storage API
+- Personal task management
+- Project management
+- Study schedules and reminders
+- Shopping lists
+- Daily productivity tracking
 
-📦 Use Cases
-Daily personal task management
+## 🔍 Features in Detail
 
-Study schedules and reminders
+### Adding Tasks
+- Type your task in the input field
+- Select a priority level
+- Click "Add" or press Enter
 
-Mini productivity tool for beginners
+### Managing Tasks
+- Click the complete button to mark as complete
+- Click the edit button to modify a task
+- Click the delete button to delete a task
+
+### Priority Colors
+- High priority tasks appear in red
+- Medium priority in orange
+- Low priority in green
+
+## 📱 Responsive Design
+
+Works on all devices:
+- Desktop
+- Tablets
+- Mobile phones
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
